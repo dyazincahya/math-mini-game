@@ -1,0 +1,42 @@
+/* 
+* MATH MINI GAME - OFFLINE
+*/
+
+/*
+	added (add) 			+
+	substracted (sub) 		-
+	devided (dev) 			:
+	multiplied (mul) 		x
+	equals (equ)			=
+	opening brackets (ob) 	)
+	closing brackets (cb) 	(
+*/
+
+[
+	{
+		"id" : "00001",
+		"question" : ["2", "add", "6", "sub", "78", "dev", "3", "mul", "56", "equ" ],
+		"answer" : {
+			"options" : [9, 12, 4, 15, 8],
+			"corect" : 9,
+			"userinput" : 12
+		},
+		"metadata" : {
+			"starttime" : "2021-01-19 20:55:45",
+			"endtime" : "2021-01-19 20:58:45"
+		}
+	}, 
+	{
+		"id" : "00002",
+		"question" : ["22", "add", "16", "sub", "8", "equ" ],
+		"answer" : {
+			"options" : [9, 12, 4, 15, 8],
+			"corect" : 9,
+			"userinput" : 12
+		},
+		"metadata" : {
+			"starttime" : "2021-01-19 20:58:09",
+			"endtime" : "2021-01-19 20:59:15"
+		}
+	}
+]
